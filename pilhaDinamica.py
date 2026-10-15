@@ -6,6 +6,7 @@ from copy import deepcopy
 class tipoItem:
     valor: str | int | float | None = None
 
+@dataclass
 class _tipoNo:
     item: tipoItem | None = None
     _prox: _tipoNo | None = None
